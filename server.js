@@ -11,6 +11,7 @@ app.get("/", function (req, res) {
   const spawn = require("child_process").spawn;
   const process = spawn("python", [scriptPath]);
   process.stdout.on("data", function (data) {
+    // res.send(data.toString());
     res.send({ result: data.toString() });
   });
 });

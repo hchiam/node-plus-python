@@ -1,0 +1,17 @@
+{
+  "name": "node-plus-python",
+  "version": "1.0.0",
+  "description": "Demo project to get Node.js talking with Python.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js & (sleep 3; open http://localhost:8000;); npm run reminder;",
+    "stop": "killall node;",
+    "reminder": "echo run yarn stop when you are done"
+  },
+  "author": "hchiam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "python-shell": "^2.0.1"
+  }
+}

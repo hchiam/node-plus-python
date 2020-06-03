@@ -2,6 +2,8 @@
 
 Demo project to get Node.js talking with Python.
 
+## Setup using [Yarn](https://github.com/hchiam/learning-yarn#learning-yarn)
+
 ```bash
 yarn
 yarn start
@@ -10,6 +12,8 @@ yarn stop
 ```
 
 or
+
+## Setup using [Node](https://github.com/hchiam/learning-nodejs#learning-nodejs)
 
 ```bash
 npm install

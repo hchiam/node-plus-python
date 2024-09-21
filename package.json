@@ -11,7 +11,7 @@
   "author": "hchiam",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "python-shell": "^2.0.1"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "node-plus-python-api-approach",
+  "version": "1.0.0",
+  "description": "Node.js server communicating with Python API server",
+  "main": "node-server.js",
+  "scripts": {
+    "start": "node node-server.js & (sleep 3; open http://localhost:8001;); npm run reminder;",
+    "stop": "killall node;",
+    "reminder": "echo run yarn stop when you are done"
+  },
+  "author": "hchiam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.19.2",
+    "axios": "1.6.0"
+  }
+}

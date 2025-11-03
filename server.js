@@ -3,7 +3,7 @@ const app = express();
 
 const port = 8000;
 app.listen(port, function () {
-  console.log(`port ${8000}`);
+  console.log(`port ${port}`);
 });
 
 app.get("/", function (req, res) {
